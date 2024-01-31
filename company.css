@@ -90,11 +90,181 @@ li {
     white-space: pre;
 }
 
-/* footer */
-footer {
-  height: 250px;
-	padding: 50px 20px;
-	text-align: center;
-  background-image: url(header.jpeg);
-}
 
+.main-body{
+	display: flex;
+	height:2000px;
+  }
+  
+  
+  .sponsor{
+	  width: 25%;
+	  height:100%;
+	  background-color:#ffffff;
+  }
+  
+  .com100{
+	  padding:10px;
+	  width: 90%;
+	  height:auto;
+	  margin: auto;
+	  display: block;
+  }
+  
+  .com100 img{
+	  width: 100%;
+	  height:auto;
+	  margin: auto;
+	  display: block;
+  }
+  
+  .com50{
+	  padding:10px;
+	  width: 60%;
+	  height:auto;
+	  margin: auto;
+	  display: block;
+  }
+  
+  .com50 img{
+	  width: 100%;
+	  height:auto;
+	  margin: auto;
+	  display: block;
+  }
+  
+  .com10{
+	  padding:10px;
+	  width: 40%;
+	  height:auto;
+	  margin: auto;
+	  display: block;
+  }
+  
+  .com10 img{
+	  width: 100%;
+	  height:auto;
+	  margin: auto;
+	  display: block;
+  }
+  
+  .contents{
+  width: 75%;
+  height:100%;
+  background-color:#907f7f;
+  }
+  
+  
+  /* footer */
+  footer {
+	height: 250px;
+	  padding: 50px 20px;
+	  text-align: center;
+	background-image: url(header.jpeg);
+  }
+  
+  
+  
+  
+  /* その場で */
+  .fadeIn{
+	  animation-name:fadeInAnime;
+	  animation-duration:1s;
+	  animation-fill-mode:forwards;
+	  opacity:0;
+  }
+  
+  
+  @keyframes fadeInAnime{
+	  from {
+	  opacity: 0;
+	  }
+  
+	  to {
+	  opacity: 1;
+	  }
+  }
+  
+  /* 下から */
+  
+  .fadeUp{
+  animation-name:fadeUpAnime;
+  animation-duration:0.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeUpAnime{
+	  from {
+	  opacity: 0;
+	  transform: translateY(100px);
+	  }
+  
+	  to {
+	  opacity: 1;
+	  transform: translateY(0);
+	  }
+  }
+  
+  /* 上から */
+  
+  .fadeDown{
+  animation-name:fadeDownAnime;
+  animation-duration:0.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeDownAnime{
+	  from {
+	  opacity: 0;
+	  transform: translateY(-100px);
+	  }
+  
+	  to {
+	  opacity: 1;
+	  transform: translateY(0);
+	  }
+  }
+  
+  /* 左から */
+  
+  .fadeLeft{
+  animation-name:fadeLeftAnime;
+  animation-duration:0.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeLeftAnime{
+	  from {
+	  opacity: 0;
+	  transform: translateX(-100px);
+	  }
+  
+	  to {
+	  opacity: 1;
+	  transform: translateX(0);
+	  }
+  }
+  
+  /* 右から */
+  
+  .fadeRight{
+  animation-name:fadeRightAnime;
+  animation-duration:0.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeRightAnime{
+	  from {
+	  opacity: 0;
+	  transform: translateX(100px);
+	  }
+  
+	  to {
+	  opacity: 1;
+	  transform: translateX(0);
+	  }
+  }
