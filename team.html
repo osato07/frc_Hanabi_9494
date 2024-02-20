@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".css">
+
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="team.css">
     <link rel="stylesheet" href="contents.css">
     <link rel="stylesheet" href="header.css">
     <title>About_team_Hanabi</title>
@@ -13,11 +15,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap" rel="stylesheet">
+    <!-- AdobeFonts -->
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'yid2rgc',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
 </head>
-<body>
+<body class="fade">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+
     <nav>
         <div class="nav-left">
             <a href="index.html"><img src="Material/JP-About_Us/hanabi_navy.png" alt="logo"></a>
@@ -29,7 +41,7 @@
         </div>
     </nav> 
 
-    <div class="aboutMenu" style="display: none;">
+    <div class="aboutMenu" style="display: none; opacity: 0;">
         <div class="aboutMenu_title">
             <p>About</p>
         </div>
@@ -48,7 +60,270 @@
         </div>
     </div>
 
-
+    <div class="main-contents">
+        <div class="member-contents">
+            <p class="en title">Team Member</p>
+            <div class="member-list">
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">代表</p>
+                        <p class="name">中溪一心</p>
+                        <p class="romen">Isshin Nakatani</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">運営</p>
+                        <p class="name">鈴木結衣</p>
+                        <p class="romen">Yui Suzuki</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">運営 クリエイティブ</p>
+                        <p class="name">菅沼智子</p>
+                        <p class="romen">Tomoko Suganuma</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">プロマネ 運営</p>
+                        <p class="name">外山英玲那</p>
+                        <p class="romen">Erena Toyama</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">運営</p>
+                        <p class="name">吉田尚翔</p>
+                        <p class="romen">Naoto Yoshida</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">運営</p>
+                        <p class="name">江田岬毅</p>
+                        <p class="romen">Misaki Eda</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">アウトリーチ</p>
+                        <p class="name">中本慧思</p>
+                        <p class="romen">Satoshi Nakamoto</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">ロボット</p>
+                        <p class="name">丹那伊織</p>
+                        <p class="romen">Iori Tanna</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">ロボット</p>
+                        <p class="name">付媛媛</p>
+                        <p class="romen">Ennenn Fu</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">ロボット</p>
+                        <p class="name">望月菜櫻</p>
+                        <p class="romen">Nao Mochiduki</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">ロボット</p>
+                        <p class="name">名和真由美</p>
+                        <p class="romen">Mayumi Nawa</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">ロボット</p>
+                        <p class="name">山西遥斗</p>
+                        <p class="romen">Haruto Yamanishi</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">運営</p>
+                        <p class="name">尾崎仁瑚</p>
+                        <p class="romen">Nico Ozaki</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+            </div>
+        </div>
+        <div class="staff-contents">
+            <p class="en title">Team Staff</p>
+            <div class="staff-list">
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">顧問</p>
+                        <p class="name">大山力也</p>
+                        <p class="romen">Rikiya Oyama</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">顧問</p>
+                        <p class="name">鈴木知真</p>
+                        <p class="romen">Kazuma Suzuki</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">クリエイティブアドバイザー</p>
+                        <p class="name">村山海優</p>
+                        <p class="romen">Miyu Murayama</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">監督 営業アドバイザー</p>
+                        <p class="name">丸山咲</p>
+                        <p class="romen">Saki Maruyama</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">外部メンター</p>
+                        <p class="name">中嶋花音</p>
+                        <p class="romen">Kanon Nakajima</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">外部メンター</p>
+                        <p class="name">鈴木健太郎</p>
+                        <p class="romen">Kentaro Suzuki</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">外部メンター</p>
+                        <p class="name">廣瀬悠人</p>
+                        <p class="romen">Yuto Hirose</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <img class="icon" src="Material/JP-About_Us/hanabi_navy.png" alt="">
+                    <div class="item-left">
+                        <p class="role">外部メンター</p>
+                        <p class="name">五十嵐広希</p>
+                        <p class="romen">Hiroki Igarashi</p>
+                    </div>
+                    <div class="item-right">
+                        <a class="stamp" href="#"><img src="Material/JP-Member/stamp_plus.png" alt=""></a>
+                    </div>
+                    <border></border>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
