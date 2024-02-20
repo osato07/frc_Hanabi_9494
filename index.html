@@ -7,14 +7,29 @@
     
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="font.css">
     <title>Hanabi-FRCteam-9494</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- AdobeFonts -->
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'yid2rgc',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
 </head>
-<body>
+<body class="fade">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+
     <nav>
         <div class="nav-left">
             <a href="index.html"><img src="Material/JP-Top/hanabi_navy.png" alt="logo"></a>
@@ -26,7 +41,7 @@
         </div>
     </nav> 
 
-    <div class="aboutMenu" style="display: none;">
+    <div class="aboutMenu" style="display: none; opacity: 0;">
         <div class="aboutMenu_title">
             <p>About</p>
         </div>
@@ -38,18 +53,18 @@
         </div>        
     </div>
 
-    <div class="top">
-        <video src="sample.mp4" autoplay muted playsinline></video>
+    <div class="video">
+        <video src="Material/Header/logoanime.mp4" autoplay muted></video>
     </div>
 
     <div class="aboutUs">
         <div class="subtitle">
-            <h1>About Us</h1>
-            <h3>私たちについて</h4>
+            <p class="en title">About Us</p>
+            <p class="ja middle">私たちについて</p>
         </div>
         <div class="slogan">
-            <h1>Get it, Give it, Hanabit !</h1>
-            <p>私たちは、活動を通してスキルをGetする。<br>
+            <p class="en title">Get it, Give it, Hanabit !</p>
+            <p class="ja sub">私たちは、活動を通してスキルをGetする。<br>
                 私たちは、得たスキルを世界にGiveする。<br>
                 私たちは、それらを花火のように輝かせる。<br>
                 様々なコトに貢献し、より良いHabitにしていきたい。</p>
@@ -61,8 +76,8 @@
 
     <div class="sponsors">
         <div class="subtitle">
-            <h1>Sponsors</h1>
-            <h3>スポンサー様</h4>
+            <p class="en title">Sponsors</p>
+            <p class="ja sub">スポンサー様</p>
         </div>
         <div class="logo">
             <div class="com100">
@@ -94,33 +109,33 @@
     <div class="outreach">
         <div class="number">
             <div class="member">
-                <h3>メンバー数</h3>
+                <p class="ja middle">メンバー数</p>
                 <div id="box1" class="box">
-                    <p><br><span class="count-up count-size">13</span>名</p>
+                    <p class="num-title"><br><span class="count-up count-size">13</span>名</p>
                 </div>
             </div>
             <div class="event">
-                <h3>イベント開催数</h3>
+                <p class="ja middle">イベント開催数</p>
                 <div id="box1" class="box">
-                    <p><br><span class="count-up count-size">22</span>回</p>
+                    <p class="num-title"><br><span class="count-up count-size">22</span>回</p>
                 </div>
             </div>
         </div>
         <div class="participatent">
-            <h3>主催/登壇イベント参加者数</h3>
+            <p class="ja undertitle">主催/登壇イベント参加者数</p>
             <div id="box2" class="box">
-                <p><br><span class="count-up count-size">14133</span>名</p>
+                <p class="ja title"><br><span class="count-up count-size">14133</span>名</p>
             </div>
         </div>
         <div class="viewers">
-            <h3>メディア推計視聴者数</h3>
+            <p class="ja undertitle">メディア推計視聴者数</p>
             <div id="box3" class="box">
-                <p><br><span class="count-up count-size">8133000</span>名</p>
+                <p class="ja title"><br><span class="count-up count-size">8133000</span>名</p>
             </div>
         </div>
         <div class="btnOutreach">
             <a class="btn-backBlue" href="event.html">詳細はこちら</a>
-            <h5>*2024年2月時点</h5>
+            <p class="ja sub">*2024年2月時点</p>
         </div>
     </div>
     <div class="footer">
