@@ -3,17 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".css">
+    <link rel="stylesheet" href="event.css">
     <link rel="stylesheet" href="contents.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="font.css">
     <title>Event_Hanabi</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- AdobeFonts -->
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'yid2rgc',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
 </head>
-<body>
+<body class="fade">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+
     <nav>
         <div class="nav-left">
             <a href="index.html"><img src="Material/JP-About_Us/hanabi_navy.png" alt="logo"></a>
@@ -25,7 +40,7 @@
         </div>
     </nav> 
 
-    <div class="aboutMenu" style="display: none;">
+    <div class="aboutMenu" style="display: none; opacity: 0;">
         <div class="aboutMenu_title">
             <p>About</p>
         </div>
@@ -44,8 +59,146 @@
         </div>
     </div>
 
+    <div class="event">
+        <div class="plan">
+            <p class="ja middle">開催・参加予定のイベント</p>
+            <p class ="en sub">upcoming event</p>
+            <a href=""><img src="Material/Header/HanabiHeader.png" alt=""></a>
+            <p class="sub">なし<br>未定</p>
+        </div>
+        <div class="held">
+            <p class="ja middle">過去の主催イベント</p>
+            <p class="en sub">Past Event</p> 
+            <div class="event-list">
+                <div class="item">
+                    <a href="https://ptipro2-3.peatix.com/view " id="openModal"><img src="Material/JP-Outreach/event13.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2024年1月28日</p>
+                        <p class="name">プチ宇宙プログラマー体験！</p>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <a href="" id="openModal"><img src="Material/JP-Outreach/event11.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年12月10日</p>
+                        <p class="name">飛ばそう！ペットボトルロケット</p>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <a href="" id="openModal"><img src="Material/JP-Outreach/event10.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年12月10日</p>
+                        <p class="name">プチ映画を作ろう！</p>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <a href="https://mathposter.glide.page/ " id="openModal"><img src="Material/JP-Outreach/event8.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年11月</p>
+                        <p class="name">ますポスター</p>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <a href="https://twitter.com/osatoosi/status/1695397275869278499?s=20 " id="openModal"><img src="Material/JP-Outreach/event4.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年9月9日</p>
+                        <p class="name">「そうだ、アプリ作ろ」</p>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <a href="https://minecraftokayama.wordpress.com/ " id="openModal"><img src="Material/JP-Outreach/event3.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年9月2日</p>
+                        <p class="name">公民館でプログラミング教室</p>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <a href="https://note.com/yui_suzuki_/n/n63c69cd4fdb8" id="openModal"><img src="Material/JP-Outreach/event1.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年5月7日</p>
+                        <p class="name">プチプログラマー体験！</p>
+                    </div>
+                    <border></border>
+                </div>
+            </div>
+        </div>
+        <div class="stage">
+            <p class="ja middle">過去の登壇イベント</p>
+            <p class="en sub">Past Event</p> 
+            <div class="event-list">
+                <div class="item">
+                    <a href="https://peatix.com/event/3761977/view?k=16b5a5d397dd2a807f8d71e64306e99529b967a9" id="openModal"><img src="Material/JP-Outreach/event12.jpeg" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年12月16日</p>
+                        <p class="name">NewE EXPO 宇宙の暮らしを体験!</p>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <a href="https://kamiyamamarugotokosen-projectbu.peatix.com/ " id="openModal"><img src="Material/JP-Outreach/event9.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年12月7日</p>
+                        <p class="name">プロジェクト部を通して学ぶ中高生たち Hanabi登壇</p>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <a href="https://higashiosaka.hanazono-expo.jp/pickup-contents/" id="openModal"><img src="Material/JP-Outreach/event7.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年11月4日</p>
+                        <p class="name">HANAZONO EXPO</p>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <a href="https://www.topics.or.jp/articles/-/965559" id="openModal"><img src="Material/JP-Outreach/event5.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年10月24日</p>
+                        <p class="name">徳島創世アワードセミナー 登壇</p>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <a href="https://tokyoeducationshow.jp/single/2008.html" id="openModal"><img src="Material/JP-Outreach/event2.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年8月20日</p>
+                        <p class="name">STEAM教育 教育若者会議</p>
+                    </div>
+                    <border></border>
+                </div>
+            </div>
+        </div>
+        <div class="media">
+            <p class="ja middle">メディア出演</p>
+            <p class="en sub">Media Appearance</p> 
+            <div class="event-list">
+                <div class="item">
+                    <a href="https://www.nhk.or.jp/tokushima/lreport/article/003/13/" id="openModal"><img src="Material/JP-Outreach/media1.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年11月17日</p>
+                        <p class="name">NHK Dearにっぽん テレビ取材</p>
+                    </div>
+                    <border></border>
+                </div>
+                <div class="item">
+                    <a href="https://www.tbs.co.jp/tv/20231028_2753.html" id="openModal"><img src="Material/JP-Outreach/media2.webp" alt=""></a>
+                    <div class="item-left">
+                        <p class="date">2023年10月28日</p>
+                        <p class="name">情報7daysからの取材</p>
+                    </div>
+                    <border></border>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
+    <script src="modal.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
