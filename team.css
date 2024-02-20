@@ -1,0 +1,110 @@
+.maincontents {
+    width: 93%;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.member-contents {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member-list {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 27%;
+    height: auto;
+    text-align: center;
+
+    /*コレ*/border-bottom: 3px solid #333;
+    padding: 10px;
+    margin: 20px;
+    background: #f2f2f2;
+
+    display: inline-block;
+}
+
+.icon {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin:0;
+}
+
+.icon img{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin:0;
+}
+
+.role {
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Toppan Bunkyu Gothic", sans-serif;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Toppan Bunkyu Gothic", sans-serif;
+}
+
+.romen {
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Je";
+}
+
+.stamp img{
+    width: 7%;
+    height: auto;
+    padding: auto;
+    margin:auto 30 30 auto;
+}
+
+.item-left {
+    text-align: left;
+}
+
+.item-right {
+    text-align: right;
+}
+
+.staff-contents {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.staff-list {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
