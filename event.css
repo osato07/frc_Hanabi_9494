@@ -1,0 +1,101 @@
+.event {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding-bottom:50px;
+    /*コレ*/border-bottom: 10px solid #333;
+}
+
+.plan img {
+    width: 100%;
+    height: auto;
+    margin:100px 0px;
+}
+
+.title {
+    font-family: 'BIZ UDGothic', sans-serif;
+
+    font-size: 38px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.sub {
+    font-family: 'BIZ UDGothic', sans-serif;
+
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.event-list {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /*コレ*/border-bottom: 10px solid #333;
+    padding: 10px;
+    margin: 20px;
+}
+
+.item {
+    width: 27%;
+    height: auto;
+    text-align: center;
+
+    /*コレ*/border-bottom: 3px solid #333;
+    padding: 10px;
+    margin: 20px;
+
+    display: inline-block;
+}
+
+.icon {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin:0;
+}
+
+.item a img{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin:0;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
+}
+
+.name {
+    font-size: 23px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
+
+}
+
+.item-left {
+    text-align: left;
+}
+
