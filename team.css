@@ -52,7 +52,7 @@
 }
 
 .role {
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 900;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -60,7 +60,7 @@
 }
 
 .name {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 900;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -68,11 +68,11 @@
 }
 
 .romen {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 900;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: "Je";
+    font-family: "Jost", sans-serif;
 }
 
 .stamp img{
