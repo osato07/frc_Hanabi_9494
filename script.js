@@ -33,3 +33,11 @@ $(window).on('load', function(){
       return false;
     });
   });
+
+  window.addEventListener('pageshow', function(event) {
+    // ページがキャッシュから読み込まれた場合も含めて、常に実行される
+    if (event.persisted || (window.performance && window.performance.navigation.type == 2)) {
+        // fadeoutクラスを削除して、ページを通常の状態に戻す
+        $('body').removeClass('fadeout');
+    }
+});
