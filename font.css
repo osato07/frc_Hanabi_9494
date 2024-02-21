@@ -34,3 +34,14 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.note {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btnOutreach p {
+    margin-top: 25px;
+}
