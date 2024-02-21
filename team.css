@@ -35,20 +35,15 @@
     background: #f2f2f2;
 
     display: inline-block;
+
+    
 }
 
 .icon {
-    width: 80%;
-    height: auto;
-    padding: 10px;
-    margin:0;
-}
-
-.icon img{
-    width: 80%;
-    height: auto;
-    padding: 10px;
-    margin:0;
+    width: 90%;
+    height: 350px;
+    border: 1px solid #ddd;
+    object-fit: cover;
 }
 
 .role {
