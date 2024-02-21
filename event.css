@@ -83,16 +83,16 @@
     margin-top: 0px;
     margin-bottom: 0px;
 
-    font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
+    font-family: "Jost", sans-serif;
 }
 
 .name {
     font-size: 23px;
-    font-weight: 900;
+    font-weight: 400;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
 
+    font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
 }
 
 .item-left {
