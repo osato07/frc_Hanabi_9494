@@ -28,9 +28,9 @@
       </script>
 </head>
 <body class="fade">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.google1apis.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
 
-    <nav>
+    <nav id="nav">
         <div class="nav-left">
             <a href="index.html"><img src="Material/JP-Top/hanabi_navy.png" alt="logo"></a>
         </div>
@@ -53,9 +53,14 @@
         </div>        
     </div>
 
-    <div class="video">
+    <video class="video" id="videoPlayer" autoplay muted>
+        <source src="Material/Header/logoanime.mp4">
+        お使いのブラウザはビデオタグをサポートしていません。
+    </video>
+
+    <!-- <div class="video">
         <video src="Material/Header/logoanime.mp4" autoplay muted></video>
-    </div>
+    </div> -->
 
     <div class="aboutUs">
         <div class="subtitle">
@@ -115,7 +120,7 @@
                 </div>
             </div>
             <div class="event">
-                <p class="ja middle">イベント数</p>
+                <p class="ja middle">イベント開催数</p>
                 <div id="box1" class="box">
                     <p class="num-title"><br><span class="count-up count-size">22</span>回</p>
                 </div>
@@ -146,6 +151,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
     <!--自作のJS-->
     <script src="countup.js"></script>
+    <script src="nav.js"></script>
 
     <script src="script.js"></script>
 </body>
