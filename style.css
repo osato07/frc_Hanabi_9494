@@ -6,6 +6,7 @@
   text-align: left;
 }
 .video{
+  width: 100%;
   background-color: #0D1833;
 }
 
@@ -225,4 +226,12 @@
   padding-top:0;
   margin-bottom:100px;
   margin-top:0;
+}
+
+/* header */
+#nav {
+  display: none; /* 最初はヘッダーを非表示にする */
+  
+  opacity: 0; /* 透明度を0に設定 */
+  transition: opacity 2s ease-in-out; /* 透明度の変化を2秒かけて行う */
 }
