@@ -1,5 +1,48 @@
 .twitter-timeline {
     width: 30%;
-    text-align: left;
+    text-align: center;
     margin:10px;
+}
+
+.contact {
+    display: flex;
+    padding: 100px;
+    text-align: center;
+}
+
+.box {
+    flex: 1; /* 各boxに均等な幅を割り当てる */
+    text-align: center;
+}
+
+.x {
+    display: inline-flex; /* Flexboxを利用して要素を横に並べる */
+    align-items: center; /* 画像とテキストを垂直中央揃え */
+    padding: 20px 40px; /* ボタン内の余白 */
+    border: 5px solid #000; /* ボーダー */
+    background-color: #ffffff; /* 背景色 */
+    text-decoration: none; /* リンクの下線を消す */
+    color: black; /* テキストの色 */
+    font-size: 16px; /* テキストのサイズ */
+    border-radius: 5px; /* ボーダーの角を丸くする */
+}
+
+.x img {
+    margin-right: 10px; /* 画像とテキストの間隔 */
+}
+
+.instagram {
+    display: inline-flex; /* Flexboxを利用して要素を横に並べる */
+    align-items: center; /* 画像とテキストを垂直中央揃え */
+    padding: 20px 40px; /* ボタン内の余白 */
+    border: 5px solid #000; /* ボーダー */
+    background-color: #ffffff; /* 背景色 */
+    text-decoration: none; /* リンクの下線を消す */
+    color: black; /* テキストの色 */
+    font-size: 16px; /* テキストのサイズ */
+    border-radius: 5px; /* ボーダーの角を丸くする */
+}
+
+.instagram img {
+    margin-right: 10px; /* 画像とテキストの間隔 */
 }
