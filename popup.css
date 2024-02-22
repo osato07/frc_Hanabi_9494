@@ -32,4 +32,9 @@ object-fit: cover;
 
 .popup-text {
     text-align: left;
+    font-family: "Toppan Bunkyu Midashi Go Std", sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
