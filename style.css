@@ -233,5 +233,5 @@
   display: none; /* 最初はヘッダーを非表示にする */
   
   opacity: 0; /* 透明度を0に設定 */
-  transition: opacity 2s ease-in-out; /* 透明度の変化を2秒かけて行う */
+  transition: opacity 1s ease-in-out; /* 透明度の変化を2秒かけて行う */
 }
