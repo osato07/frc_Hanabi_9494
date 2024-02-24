@@ -1,5 +1,5 @@
 .ja {
-    font-family: "Toppan Bunkyu Midashi Go Std", sans-serif;
+    font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
 
 }
 
@@ -28,8 +28,29 @@
     margin-bottom: 0px;
 }
 
+.mimu {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.brother {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .sub {
     font-size: 27px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.nico {
+    font-size: 25px;
     font-weight: 900;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -44,4 +65,8 @@
 
 .btnOutreach p {
     margin-top: 25px;
+}
+
+.bold {
+    font-style: bold;
 }
