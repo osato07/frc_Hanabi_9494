@@ -4,14 +4,13 @@
     margin:10px;
 }
 
-.contact {
-    display: flex;
-    padding: 100px;
+.contents {
     text-align: center;
 }
 
-.box {
-    flex: 1; /* 各boxに均等な幅を割り当てる */
+.contact {
+    display: flex;
+    padding: 100px;
     text-align: center;
 }
 
@@ -45,4 +44,15 @@
 
 .instagram img {
     margin-right: 10px; /* 画像とテキストの間隔 */
+}
+
+.btn-top {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-top a{
+    margin-right:50px;
+    margin-left: 50px;
 }
