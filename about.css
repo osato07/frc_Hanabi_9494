@@ -26,7 +26,7 @@
     width: 100%;
     height: auto;
     padding: 0;
-    margin: auto;
+    margin: 0;
     text-align: left;
 }
 
@@ -84,11 +84,11 @@
     background-color: #0D1833;
     color: white;
     text-align: center;
-    margin:50px auto;
+    margin:20px auto;
 
     font-size: 46px;
     font-weight: 900;
-    padding: 0.5em 1em;
+    padding: 0.5em 0.3em;
     
     box-shadow: 0 0px 10px 0 rgba(0,0,0,0.5);
 }
@@ -97,11 +97,11 @@
     background-color: #0D1833;
     color: white;
     text-align: center;
-    margin:50px auto;
+    margin:20px auto;
 
     font-size: 46px;
     font-weight: 900;
-    padding: 0.5em 1em;
+    padding: 0.5em 0.3em;
     
     box-shadow: 0 0px 10px 0 rgba(0,0,0,0.5);
 }
@@ -109,6 +109,9 @@
 .values-text {
     display: inline-block;
     text-align: center;
+    font-size: 60px;
+    padding:0;
+    margin:0;
 }
 
 .explain {
