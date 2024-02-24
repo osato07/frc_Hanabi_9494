@@ -19,7 +19,7 @@
 
   font-size: 22px;
   font-weight: 900;
-  padding: 1em 2em;
+  padding: 1em 3em;
   text-decoration: none;
   
   box-shadow: 0 0px 10px 0 rgba(0,0,0,0.5);
@@ -36,7 +36,7 @@
 
   font-size: 22px;
   font-weight: 900;
-  padding: 1em 2em;
+  padding: 1em 3em;
   text-decoration: none;
   
   box-shadow: 0 0px 10px 0 rgba(255, 255, 255, 0.5);
@@ -231,7 +231,7 @@
 /* header */
 #nav {
   display: none; /* 最初はヘッダーを非表示にする */
-  
+
   opacity: 0; /* 透明度を0に設定 */
-  transition: opacity 1s ease-in-out; /* 透明度の変化を2秒かけて行う */
+  transition: opacity 1s ease-in-out; /* 透明度の変化をx秒かけて行う */
 }
