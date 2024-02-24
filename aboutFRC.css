@@ -16,6 +16,11 @@
     height: auto;
 }
 
+.for {
+    width: 50%;
+    height: auto;
+}
+
 .photoset {
     display: flex;
     height: auto;
