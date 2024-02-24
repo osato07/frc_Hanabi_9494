@@ -1,0 +1,47 @@
+.aboutFRC {
+    width: 85%;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 150px;
+}
+
+.three {
+    width: 70%;
+    height: auto;
+}
+
+.photoset {
+    display: flex;
+    height: auto;
+    margin:0 auto;
+    text-align: left;
+}
+
+.photoset img {
+    width: 42%;
+    height: auto;
+    margin:0 20px;
+}
+
+.btn-backWhite {
+    border-radius: 14px;
+    border: 7px;
+    background-color: #0D1833;
+    color:white;
+    text-align: center;
+   
+    font-size: 22px;
+    font-weight: 900;
+    padding: 1em 3em;
+    text-decoration: none;
+    
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,0.5);
+  
+    font-family: "Toppan Bunkyu Midashi Go Std", sans-serif;
+}
