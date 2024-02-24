@@ -7,6 +7,13 @@
     font-family: "Jost", sans-serif;
 }
 
+.bigtitle {
+    font-size: 150px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .title {
     font-size: 60px;
     font-weight: 900;
@@ -57,7 +64,14 @@
 }
 
 .note {
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footnote {
+    font-size: 15px;
     font-weight: 500;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -69,4 +83,14 @@
 
 .bold {
     font-style: bold;
+}
+
+.marge {
+    margin-top: 0px;
+    margin-bottom: 3em;
+}
+
+.bigmarge {
+    margin-top: 0px;
+    margin-bottom: 9em;
 }
