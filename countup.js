@@ -47,7 +47,7 @@ $('#box3').one('inview', function(event, isInView) {
                 Counter: $(this).text()
             }, {
                 // スピードやアニメーションの設定
-                duration: 5000, // 数字が大きいほど変化のスピードが遅くなる。2000 = 2秒
+                duration: 3000, // 数字が大きいほど変化のスピードが遅くなる。2000 = 2秒
                 easing: 'swing', // 動きの種類。他にもlinearなど設定可能
                 step: function (now) {
                     $(this).text(Math.ceil(now));
