@@ -1,6 +1,5 @@
 .ja {
     font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
-
 }
 
 .en {
@@ -10,71 +9,71 @@
 .bigtitle {
     font-size: 150px;
     font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding:0;
+    margin:0;
 }
 
 .title {
     font-size: 60px;
     font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding:0;
+    margin:0;
 }
 
 .undertitle {
     font-size: 50px;
     font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding:0;
+    margin:0;
 }
 
 .middle {
     font-size: 40px;
     font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding:0;
+    margin:0;
 }
 
 .mimu {
     font-size: 36px;
     font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding:0;
+    margin:0;
 }
 
 .brother {
     font-size: 32px;
     font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding:0;
+    margin:0;
 }
 
 .sub {
     font-size: 27px;
     font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding:0;
+    margin:0;
 }
 
 .nico {
     font-size: 25px;
     font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding:0;
+    margin:0;
 }
 
 .note {
     font-size: 20px;
     font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding:0;
+    margin:0;
 }
 
 .footnote {
     font-size: 15px;
     font-weight: 500;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding:0;
+    margin:0;
 }
 
 .btnOutreach p {

@@ -26,18 +26,35 @@
           h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
         })(document);
       </script>
+
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'yid2rgc',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
 </head>
 <body class="fade">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
 
-    <nav>
+    <nav id="nav">
         <div class="nav-left">
-            <a href="index.html"><img src="Material/JP-About_Us/hanabi_navy.png" alt="logo"></a>
+            <a href="index.html"><img src="Material/JP-Top/hanabi_navy.png" alt="logo"></a>
         </div>
         <div class="nav-right">
-            <a href="#" class="toggle-target">About</a>
-            <a href="event.html">Event</a>
-            <a href="contact.html">Contact</a>
+            <div class="line">
+                <a href="#" class="toggle-target">About</a>
+                <a href="event.html">Event</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="lang">
+                <a class="bord">JP</a>
+                <a href="index-en.html">EN</a>
+            </div>
         </div>
     </nav> 
 
