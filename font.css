@@ -7,70 +7,80 @@
 }
 
 .bigtitle {
-    font-size: 150px;
+    font-size:6vw;
+    /* font-size: 150px; */
     font-weight: 900;
     padding:0;
     margin:0;
 }
 
 .title {
-    font-size: 60px;
+    font-size:5vw;
+    /* font-size: 60px; */
     font-weight: 900;
     padding:0;
     margin:0;
 }
 
 .undertitle {
-    font-size: 50px;
+    font-size:4vw;
+    /* font-size: 50px; */
     font-weight: 900;
     padding:0;
     margin:0;
 }
 
 .middle {
-    font-size: 40px;
+    font-size:3vw;
+    /* font-size: 40px; */
     font-weight: 900;
     padding:0;
     margin:0;
 }
 
 .mimu {
-    font-size: 36px;
+    font-size:2.5vw;
+    /* font-size: 36px; */
     font-weight: 900;
     padding:0;
     margin:0;
 }
 
 .brother {
-    font-size: 32px;
+    font-size:2vw;
+    /* font-size: 32px; */
     font-weight: 900;
     padding:0;
     margin:0;
 }
 
 .sub {
-    font-size: 27px;
+    font-size:1.5vw;
+    /* font-size: 27px; */
     font-weight: 900;
     padding:0;
     margin:0;
 }
 
 .nico {
-    font-size: 25px;
+    font-size:1.3vw;
+    /* font-size: 25px; */
     font-weight: 900;
     padding:0;
     margin:0;
 }
 
 .note {
-    font-size: 20px;
+    font-size:1vw;
+    /* font-size: 20px; */
     font-weight: 900;
     padding:0;
     margin:0;
 }
 
 .footnote {
-    font-size: 15px;
+    font-size:0.7vw;
+    /* font-size: 15px; */
     font-weight: 500;
     padding:0;
     margin:0;
