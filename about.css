@@ -32,14 +32,14 @@
 
 .main-title {
     font-weight: 900;
-    font-size: 40px;
+    font-size: 2.5vw;
     margin-top: 130px;
     margin-bottom: 0px;
 }
 
 .sub-title {
     font-weight: 900;
-    font-size: 30px;
+    font-size: 2.5vw;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -50,7 +50,7 @@
     text-align: center;
     margin:50px auto;
 
-    font-size: 46px;
+    font-size: 3.5vw;
     font-weight: 900;
     padding: 0.5em 1em;
     
@@ -68,7 +68,7 @@
     text-align: center;
     margin:50px auto;
 
-    font-size: 46px;
+    font-size: 4vw;
     font-weight: 900;
     padding: 0.5em 1em;
     
@@ -86,7 +86,7 @@
     text-align: center;
     margin:20px auto;
 
-    font-size: 46px;
+    font-size: 4vw;
     font-weight: 900;
     padding: 0.5em 0.3em;
     
@@ -99,7 +99,7 @@
     text-align: center;
     margin:20px auto;
 
-    font-size: 46px;
+    font-size: 4vw;
     font-weight: 900;
     padding: 0.5em 0.3em;
     
@@ -109,14 +109,14 @@
 .values-text {
     display: inline-block;
     text-align: center;
-    font-size: 60px;
+    font-size: 3vw;
     padding:0;
     margin:0;
 }
 
 .explain {
     font-weight: 900;
-    font-size: 15px;
+    font-size: 1vw;
     margin-top: 0px;
     margin-bottom: 30px;
 }
