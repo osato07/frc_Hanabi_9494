@@ -22,7 +22,7 @@
 .title {
     font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
 
-    font-size: 38px;
+    font-size: 2vw;
     font-weight: 900;
     margin-top: 50px;
     margin-bottom: 0px;
@@ -31,7 +31,7 @@
 .sub {
     font-family: "toppan-bunkyu-midashi-go-std", sans-serif;
 
-    font-size: 25px;
+    font-size: 1.3vw;
     font-weight: 900;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -71,14 +71,14 @@
 }
 
 .item a img{
-    width: 100%;
-    height: 250px;
+    width: 90%;
+    height: 20vw;
     border: 1px solid #ddd;
     object-fit: cover;
 }
 
 .date {
-    font-size: 16px;
+    font-size: 1.5vw;
     font-weight: 900;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -87,7 +87,7 @@
 }
 
 .name {
-    font-size: 23px;
+    font-size: 2.2vw;
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 0px;
