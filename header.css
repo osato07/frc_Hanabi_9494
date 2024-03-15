@@ -97,7 +97,7 @@ nav {
   transition: opacity 0.5s ease;
 
   background-color:rgba(255, 255, 255, 0.9);
-  margin-top:13vw;
+  margin-top:0vw;
   padding:0 0 1.2em 0;
   text-align: center;
   position: fixed;
