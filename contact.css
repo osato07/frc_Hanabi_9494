@@ -1,56 +1,28 @@
-.twitter-timeline {
-    width: 30%;
-    text-align: center;
-    margin:10px;
-}
-
 .contents {
     text-align: center;
-    display: flex;
-}
-
-.x-box {
-    width: 49%;
-    height: auto;
-    text-align: center;
-    display:flex;
-    margin:0 auto;
-}
-
-.insta-box {
-    width: 49%;
-    height: auto;
-
-    text-align: center;
-    display: flex;
-    margin:0 auto;
-}
-
-.x {
-    height: 50px;
-    text-align: center;
-    padding:auto;
-}
-
-.instagram {
-    height: 50px;
-    text-align: center;
-    padding:auto;
 }
 
 .btn {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 8vw;
+}
+
+.btn-backWhite {
     border-radius: 14px;
     border: 7px;
-    background-color: #ffffff;
-    color:#0D1833;
+    background-color: #0D1833;
+    color:white;
     text-align: center;
   
-    font-size: 22px;
+    font-size: 1.5vw;
     font-weight: 900;
-    padding: 1em 2em;
+    padding: 1em 5em;
+    margin-top: 0px;
+    margin-bottom: 6vw;
     text-decoration: none;
     
     box-shadow: 0 0px 10px 0 rgba(0,0,0,0.5);
   
     font-family: "Toppan Bunkyu Midashi Go Std", sans-serif;
-  }
+}
