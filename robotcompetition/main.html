@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Hanabi_RobotContest/花火ロボットコンテスト</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="font.css">
+<link rel="stylesheet" href="nav.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script>
+    (function(d) {
+      var config = {
+        kitId: 'dtt0uha',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+</head>
+<div id="overlay"></div>
+<nav id="nav">
+    <div class="nav-left">
+        <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+    </div>
+    <div class="nav-right">
+        <div class="line">
+            <a href="#" class="toggle-target">About</a>
+            <a href="event.html">Event</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="lang">
+            <a href="#" class="bord">JP</a>
+            <a href="index-en.html">EN</a>
+        </div>
+    </div>
+</nav> 
+
+<div class="aboutMenu" style="display: none; opacity: 0;">
+    <div class="aboutMenu_title">
+        <p>About</p>
+    </div>
+    <div class="aboutMenu_choice">
+        <a href="about.html">About Us</a>
+        <a href="team.html">Member</a>
+        <a href="biography.html">Biography</a>
+        <a href="aboutFRC.html">About FRC</a>
+    </div>        
+</div>
+
+<div class="frontpage" style="text-align: center;">
+    <div class="container-page">
+        <p class="title black" style=" position: relative; z-index: 2; margin-top: 40vh; margin-bottom: 50px;">Robot Contest</p>
+        <a href="https://calendar.google.com/calendar/" id="date" class="title black" style="position: relative; text-decoration: none; z-index: 2; margin-bottom: 30px;">2024.10.12<span style="font-size: 22px;">Sat</span> - 10.14<span style="font-size: 22px;">Mon</span></a>
+        <a href="#" id="btn" style="position: relative; text-decoration: none; z-index: 2;" >まずはお申し込み</a>
+    </div>
+</div>
+
+<body>
+<div class="content_title">
+    <p class="white" style="font-size: 35px;">中学生対象、<br>
+        2泊3日のロボットコンテストを<br>
+        <span style="font-size: 45px;">参加費無料</span>で開催します。</p>
+    <p class="white" style="font-size: 20px;">世界最大の国際ロボコンに出場する<br>
+        チーム Hanabi によるイベント。<br>
+        高校生らが自ら資金を集め企画をし、<br>
+        実現したものです。<br>
+        仲間と一つのものに没頭する、<br>
+        未知の環境で最高の学びを得てみませんか。</p>
+</div>
+<div class="circle_container">
+    <div class="moving-circleR"></div>
+    <div class="moving-circleG"></div>
+    <div class="moving-circleB"></div>
+    <div class="moving-circleP"></div>
+</div>
+<div class="content2" style="margin-bottom: 100px; width: 51%; height: auto;">
+    <p class="title white" style="margin-bottom: 60px;" >2泊3日の学び</p>
+    <div class="content2_under">
+        <div id="mouse_container" onmousedown="startMoving(event)" onmouseup="stopMoving()" onmouseleave="stopMoving()">
+            <img id="image_move" src="assets/toppage/robot.png" style="bottom: 0;"> <!-- 画像のパスを指定 -->
+        </div>
+        <div class="content2_right white">
+            <p class="subtitle white" style="text-align: left;" >プログラミングを学び、<br>モノづくりに対する壁を無くす。</p>
+            <p>当日発表のロボットコンテストのルールを読み解き、持っている技術で形にする。普段の学校生活ではできない体験をしてみよう！</p>
+        </div>
+    </div>
+    <div class="content2_under">
+        <div class="content2_right white">
+            <p class="subtitle white" style="text-align: left;" >新しい仲間と環境で、<br>自分の強みを見つける。</p>
+            <p>似たような想いで参加した初対面の仲間と触れ合うことで、意外な自分の一面を知ることや、誰かを助ける自分の強みに気づける。</p>
+        </div>
+        <div class="image_right">
+            <img src="assets/activity/_DSC3333.jpg" alt="" style="object-fit: cover;">
+        </div>
+    </div>
+    <div class="content2_under">
+        <div class="image_left">
+            <img src="assets/activity/_DSC3361.jpg" alt="" style="object-fit: cover;">
+        </div>
+        <div class="content2_right white">
+            <p class="subtitle white" style="text-align: left;" >想いを伝える力</p>
+            <p>似たような想いで参加した初対面の仲間と触れ合うことで、意外な自分の一面を知ることや、誰かを助ける自分の強みに気づける。</p>
+        </div>
+    </div>
+</div>
+<div id="detail" class="detail" style="margin-bottom: 100px; height: auto; width: 51%;">
+    <p class="title white" style="margin-bottom: 60px;" >開催概要</p>
+    <p style="margin-bottom: 100px;">ロボットコンテストのテーマは『　　　　　　　　　』です。未知の環境で、初めての仲間と、ロボットという一つのものに集中してさまざまな学びが得られます。<br>神山まるごと高専の海外ロボットコンテストチーム、Hanabiの高専生たちが主催をしており、ロボコンを通じて得た資金調達のスキルやプログラミングのスキルなど、価値ある経験をより多くの子供達が体験できることを目標にしています。</p>
+    <div class="detail_container" style="display: flex;">
+        <dt style="font-size: 24px;">開催期間</dt>
+        <dd class="desc">
+        <p>2024年10月12日(土)~10月14日(月)</p>
+        </dd>
+    </div>
+    <div class="detail_container" style="display: flex;">
+        <dt style="font-size: 24px;">場所</dt>
+        <dd class="desc">
+        <p>神山まるごと高専OFFICE / コットンフィールド</p>
+        </dd>
+    </div>
+    <div class="detail_container" style="display: flex;">
+        <dt style="font-size: 24px;">参加費</dt>
+        <dd class="desc">
+        <p>0円 無料 <br><span style="font-size: 12px; color: #ebebeb; margin: 0; padding: 0;">※コットンフィールド宿泊費・食費として。<br>※現地までの交通費は各自の負担となります。</span></p>
+        </dd>
+    </div>
+    <div class="detail_container" style="display: flex;">
+        <dt style="font-size: 24px;">応募資格</dt>
+        <dd class="desc">
+        <p>2泊3日のプログラム全日程に参加可能な方<br>開催日時点で、中学生（中学1年生~3年生）であること</p>
+        </dd>
+    </div>
+    <div class="detail_container" style="display: flex;">
+        <dt style="font-size: 24px;">参加人数</dt>
+        <dd class="desc">
+        <p>20名</p>
+        </dd>
+    </div>
+    <div class="detail_container" style="display: flex;">
+        <dt style="font-size: 24px;">応募期間</dt>
+        <dd class="desc">
+        <p>2024年10月4日(金)~10月14日(月)</p>
+        </dd>
+    </div>
+    <div class="detail_container" style="display: flex;">
+        <dt style="font-size: 24px;">応募方法</dt>
+        <dd class="desc">
+        <p>応募フォームからご応募ください</p>
+        </dd>
+    </div>
+    <div class="detail_container" style="display: flex;">
+        <dt style="font-size: 24px;">選考方法</dt>
+        <dd class="desc">
+        <p>期間内に提出された課題によって選考します。</p>
+        </dd>
+    </div>
+    <div class="detail_container" style="display: flex;">
+        <dt style="font-size: 24px;">選考結果<br>について</dt>
+        <dd class="desc">
+        <p>参加可否に関わらず9月下旬までにお知らせいたします。<br>選考理由については個別にお答えいたしませんので、予めご了承ください。</p>
+        </dd>
+    </div>
+    <div class="detail_container" style="display: flex;">
+        <dt style="font-size: 24px;">選考課題</dt>
+        <dd class="desc">
+        <p style="font-size: 35px; margin-bottom: 20px;">動画の提出</p>
+        <p><span style="font-size: 24px;">動画の提出をお願いいたします。課題内容＝＝＝。</span><br><span style="font-size: 17px; color: #ebebeb;">※評価観点</span><br><span style="font-size: 17px;">・注意事項<br>・注意すること<br>・注意すること<br>・注意すること<br>・注意すること<br>・注意すること<br>・注意すること<br>・注意すること<br>・注意すること<br>・注意すること<br>・注意すること<br>・注意すること<br>・注意すること</span></p>
+        </dd>
+    </div>
+</div>
+<div class="access" style="width: 51%; height:auto; padding-bottom: 200px;">
+    <p class="title white" style="margin-bottom: 60px;" >アクセス</p>
+    <p class="white" style="font-size: 18px; color:#dddddd;">徳島県内から神山まるごと高専までの公共交通機関は、徳島バスのみとなります。JRを含むすべての電車は徒歩圏内の最寄り駅はありません。最も近い駅は「JR石井駅」で、車で約30分の距離です。また、本校指定の駐車場は2箇所ございますが駐車可能台数が少ないので、来校の際は公共交通機関もしくはタクシーのご利用にご協力ください。</p>
+    <img style="width: 100%; height: auto;" src="assets/toppage/illust_map.webp" alt="">
+    <div class="bus">
+        <p style="font-size: 24px; background-color: #dddddd; font-weight: 600; padding: 5px 20px; width: auto;">徳島バスをご利用の場合</p>
+        <img style="width: 50%; height: auto;" src="assets/toppage/illust_bus.webp" alt="">
+        <p class="white" style="font-size: 18px; font-weight: 600;">徳島駅前 13番のりば<br>神山線「西上角中」下車すぐ<br><br>徳島駅前 13番のりば<br>佐那河内線「西上角」下車、徒歩約5分<br><br>時刻表や路線図などは徳島バスのホームページをご覧ください。</p>
+    </div>
+    <div class="car">
+        <p style="font-size: 24px; background-color: #dddddd; font-weight: 600; padding: 5px 20px; width: auto;">車でお越しの場合</p>
+        <img style="width: 50%; height: auto;" src="assets/toppage/illust_car.webp" alt="">
+        <img style="width: 50%; height: auto;" src="assets/toppage/illust_car2.webp" alt="">
+        <p class="white" style="font-size: 18px; font-weight: 600;">大阪・高松方面からお越しの方<br>高松自動車動 「板野IC」を下りて約50分<br><br>松山・高知方面からお越しの方<br>徳島自動車道 「土成IC」を下りて約50分<br><br>第2駐車場をご利用の方は右図の「駐車可能エリア」に駐車してください。<br>駐車場への出入りは「駐車可能エリア」横の出入口①をご利用ください。出入口②からの出入りはご利用をご遠慮ください。</p>
+    </div>
+    <div class="taxi">
+        <p style="font-size: 24px; background-color: #dddddd; font-weight: 600; padding: 5px 20px; width: auto;">タクシーでお越しのお客様</p>
+        <p class="white" style="font-size: 18px; font-weight: 600;">徳島駅から約50分<br>徳島阿波おどり空港から約60分</p>
+    </div>
+</div>
+<div class="members_container" style="padding-bottom: 200px; width: 51%;">
+    <p class="title white" style="margin-bottom: 60px;" >運営メンバー</p>
+    <ul class="members">
+        <li onclick="showMessage('ちょっ、いいやん！オレ強いロボットがいい')">
+            <img src="assets/member/eda.jpg" alt="">
+            <p class="white" style="font-size: 10px;">神山まるごと高専2年<br><span style="font-size: 30px;">江田岬毅</span></p>
+        </li>
+        <li onclick="showMessage('みなさん、頑張りましょう！')">
+            <img src="assets/member/isshin.jpg" alt="">
+            <p class="white" style="font-size: 10px;">神山まるごと高専2年<br><span style="font-size: 30px;">高山とうこ</span></p>
+        </li>
+        <li onclick="showMessage('みなさん、頑張りましょう！')">
+            <img src="assets/member/suganuma.jpg" alt="">
+            <p class="white" style="font-size: 10px;">神山まるごと高専2年<br><span style="font-size: 30px;">藤條みのり</span></p>
+        </li>
+        <li onclick="showMessage('メロメロパンチ')">
+            <img src="assets/member/suzuki.jpg" alt="">
+            <p class="white" style="font-size: 10px;">神山まるごと高専2年<br><span style="font-size: 30px;">龍田もとき</span></p>
+        </li>
+        <li onclick="showMessage('みなさん、頑張りましょう！')">
+            <img src="assets/member/yoshida.png" alt="">
+            <p class="white" style="font-size: 10px;">神山まるごと高専2年<br><span style="font-size: 30px;">吉田尚翔</span></p>
+        </li>
+    </ul>
+</div>
+<div class="contact" style="text-align: center; padding:200px 0 100px 0;">
+    <p class="black" style="font-size: 35px; font-weight: 600;">手の中に残る、<br>忘れたくない思い出を。</p>
+    <ul class="sns" style="display: flex;">
+        <li>
+            <img src="assets/contact/mail.png" alt="">
+        </li>
+        <li>
+            <img src="assets/contact/mail.png" alt="">
+        </li>
+    </ul>
+    <p class="black" style="font-size: 18px; font-weight: 600;">海外ロボットコンテストチーム Hanabiは、ロボットを作るだけでなく、<br>自分たちの学びを地域に還元するイベント活動も行っています。<br>一年前まで中学生だった高校生が、本当に伝えたいことを本気で考えました。</p>
+    <a href="#" id="btn" style=" text-decoration: none; z-index: 1; margin: 20px 0 40px 0;" >お申し込み、お待ちしております。</a>
+    <button id="email" onclick="copyEmail()">メールアドレスをコピー</button>
+</div>
+<div id="notification" class="hide">メールアドレスがコピーされました！</div>
+<div id="popup" class="hidden">
+    <p id="message"></p>
+    <button onclick="closePopup()">閉じる</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

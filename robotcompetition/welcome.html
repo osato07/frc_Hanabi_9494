@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Welcome Screen</title>
+<style>
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  overflow: hidden;
+}
+
+#welcome-container {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  position: relative; /* 追加: ポジションコンテキストを提供 */
+}
+
+#welcome-text {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  opacity: 0;
+  animation: fadeInText 1s 1s forwards;
+}
+
+.robot-image {
+  width: 100px;
+  opacity: 0;
+  position: absolute;
+}
+
+#robot1 {
+    z-index: 0;
+  animation: moveInLeft 2s 2s forwards;
+}
+
+#robot2 {
+    z-index: 0;
+  animation: moveInRight 2s 3s forwards;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  z-index: 100;
+  animation: fadeOutToBlack 1s 5s forwards; /* フェードアウト開始タイミングを調整 */
+}
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+@keyframes fadeInText {
+  to { opacity: 1; }
+}
+
+@keyframes moveInLeft {
+  from { left: -120px; }
+  to { left: calc(20% - 50px); opacity: 1; }
+}
+
+@keyframes moveInRight {
+  from { right: -120px; }
+  to { right: calc(20% - 50px); opacity: 1; }
+}
+@keyframes fadeOutToBlack {
+  from { background: transparent; }
+  to { background: black; }
+}
+</style>
+</head>
+<body>
+<div id="overlay"></div>
+<div id="welcome-container">
+    <h1 id="welcome-text">2泊3日のロボットコンテスト<br>参加費無料で開催。</h1>
+    <img src="assets/toppage/robot.png" id="robot1" class="robot-image">
+    <img src="assets/toppage/robot.png" id="robot2" class="robot-image">
+</div>
+<script>
+    window.addEventListener('load', function() {
+    setTimeout(function() {
+        document.body.style.transition = 'background-color 3s';
+        document.body.style.backgroundColor = 'black';
+        setTimeout(function() {
+            window.location.href = 'main.html';
+        }, 2000); // Wait for the fade-out to complete before redirecting
+    }, 5000); // Total animation time before starting the fade-out
+});
+</script>
+</body>
+</html>

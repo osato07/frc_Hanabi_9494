@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Hanabi 2泊3日3日のロボットコンテスト 2024</title>
+</head>
+<body>
+<div id="container" onmousedown="startMoving(event)" onmouseup="stopMoving()" onmouseleave="stopMoving()">
+  <img id="image" src="assets/toppage/robot.png"> <!-- 画像のパスを指定 -->
+</div>
+<div class="another">
+
+</div>
+<script>
+    // ローカルストレージから訪問状況を取得
+    var visited = localStorage.getItem('visited');
+
+    if (!visited) {
+        // 訪れたことがない場合、Welcome.htmlへ
+        localStorage.setItem('visited', 'true'); // 訪問状況を保存
+        window.location.href = 'welcome.html';
+    } else {
+        // すでに訪れたことがある場合、Main.htmlへ
+        window.location.href = 'main.html';
+    }
+</script>
+</body>
+</html>
