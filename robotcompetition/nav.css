@@ -22,7 +22,7 @@ nav {
   height: auto;
   margin-top: 1.5vw;
   margin-bottom: 1.5vw;
-  z-index: 3;
+  z-index: 4;
 }
 
 .nav-right {
@@ -81,6 +81,7 @@ nav {
 .aboutMenu.visible {
   display: block;
   opacity: 1;
+  z-index: 2;
 }
 
 .aboutMenu_title p{
