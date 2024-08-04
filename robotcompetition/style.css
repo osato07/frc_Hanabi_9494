@@ -412,7 +412,14 @@ body {
   border-radius: 50px;
   cursor: pointer;
   outline: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
+#email:hover {
+  transform: translateY(-5px); /* ホバー時に上に5px移動 */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 影を追加して浮き出る効果を強調 */
+}
+
 
 #notification {
   margin-top: 20px;
@@ -436,4 +443,52 @@ body {
 
 .show {
   display: block;
+}
+
+#formlink {
+  text-decoration: none;
+  color: #fffffc;
+  font-weight: 700;
+  border-bottom: #fffffc 2px solid; 
+  font-size: 24px;
+  transition: color 0.3s ease, border 0.1s ease;
+}
+#formlink:hover {
+  text-decoration: none;
+  color: #ea6948;
+  border-bottom: #ea6948 4px solid; 
+
+}
+
+#schedule {
+  width: 51%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fffffc;
+}
+#schedule table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#schedule th, td {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  text-align: left;
+}
+#day1 th {
+  background-color: #0857A2;
+}
+#day2 th {
+  background-color: #C83833;
+}
+#day3 th {
+  background-color: #1e7c3c;
+}
+#schedule .timeschedule {
+  width: 20%;
 }

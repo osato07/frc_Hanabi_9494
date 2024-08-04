@@ -3,14 +3,15 @@ p {
     font-optical-sizing: auto;
     font-weight: 550;
     font-style: normal;
-    font-size: 18px;
 }
 
 .white {
     color: #fffffc;
+    font-weight: 550;
 }
 .black {
     color: #0d1833;
+    font-weight: 550;
 }
 
 .title {
