@@ -151,7 +151,7 @@ body {
 }
 #image_move {
     position: absolute;
-    width: 300px; /* 画像のサイズを適宜調整してください */
+    width: 13vw; /* 画像のサイズを適宜調整してください */
 }
 .image_right {
     width: 40%;
@@ -311,6 +311,8 @@ body {
   flex: 0 0 28%; 
   margin-bottom: 10vw;
   text-align: center;
+  transition: opacity 0.3s ease-in-out;
+
 }
 
 .members img {
