@@ -449,6 +449,10 @@ body {
 }
 .detail_container {
   display: flex;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
 }
 .detail_container dt {
   flex-shrink: 0;
@@ -570,13 +574,23 @@ body {
 @media (max-width: 767px) {
   #schedule {
     width: 90%;
+    
   }
 }
 
-
+#schedule h2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+}
 #schedule table {
   width: 100%;
   border-collapse: collapse;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
 }
 #schedule th, td {
   padding: 10px;
